@@ -3,7 +3,7 @@
     package="com.kdvideo_downloader.video_downloader">
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <application
+    <!-- <application
         android:name="io.flutter.app.FlutterApplication"
         android:usesCleartextTraffic="true"
         tools:ignore="MissingClass">
@@ -20,6 +20,6 @@
             android:name=".DownloadService"
             android:enabled="true"
             android:exported="true" />
-    </application>
+    </application> -->
 
 </manifest>
